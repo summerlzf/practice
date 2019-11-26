@@ -1,2 +1,9 @@
 server:
   port: 8088
+
+spring:
+  application:
+    name: practice
+
+  main:
+    allow-bean-definition-overriding: true

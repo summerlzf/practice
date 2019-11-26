@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <title>index</title>
 </head>
 
 <body>
-    <div>index</div>
+    <div th:text="${user.name + ' / ' + user.age}"></div>
 
-<script type="application/javascript" src="./common.js"></script>
+    <script type="application/javascript" src="./common.js"></script>
 </body>
 </html>
