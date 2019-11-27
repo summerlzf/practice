@@ -26,6 +26,7 @@ public class ThymeleafConfig implements ApplicationContextAware {
     @Autowired
     private ThymeleafProperties properties;
 
+    @Override
     public void setApplicationContext(ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
     }
