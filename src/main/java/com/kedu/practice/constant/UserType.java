@@ -8,8 +8,11 @@ import lombok.Getter;
 @Getter
 public enum UserType {
 
+    /** 普通用户 */
     NORMAL(0, "普通用户"),
+    /** 会员用户 */
     MEMBER(1, "会员用户"),
+    /** 超级会员 */
     VIP(2, "超级会员");
 
     private int code;
